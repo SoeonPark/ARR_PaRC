@@ -95,7 +95,7 @@ for mode in "${training_types[@]}"; do
     esac
 done
 
-python_bin="${PYTHON_BIN:-/home/nlplab/anaconda3/envs/octarr/bin/python}"
+python_bin="${PYTHON_BIN:-python3}"
 log_dir="${PROJECT_ROOT}/logs"
 dry_run="${DRY_RUN:-0}"
 failed_runs=0
