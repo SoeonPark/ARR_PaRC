@@ -75,11 +75,6 @@ Training alternates **one alignment optimizer update, then one SFT optimizer upd
 
 Clone the repository, then run the remaining commands from its root directory, which contains `main.py` and this README:
 
-```bash
-git clone https://github.com/SoeonPark/ARR_PaRC.git
-cd ARR_PaRC
-```
-
 Use Bash and Python 3.11. Training requires one CUDA GPU with BF16 support and a compatible NVIDIA driver. The reference experiments used one RTX 4090 per run. The `same_pair` sampler supports one process and one visible GPU.
 
 ### Training, data preparation, and generation environment
